@@ -1,0 +1,43 @@
+.login {
+	display: flex;
+	flex-direction: column;
+	width: 750upx;
+}
+.logo {
+	width: 200upx;
+	height: 200upx;
+	align-self: center;
+	margin-top: 250upx;
+	border-radius: 125upx;
+}
+.login-user {
+	display: flex;
+	flex-direction: row;
+	margin: 100upx 20upx 20upx 20upx;
+}
+.login-bottom-border {
+	margin: 0px 50upx 0upx 50upx;
+	border-bottom-color: #979797;
+	border-bottom-style: solid;
+	border-bottom-width: 0.5px;
+}
+.login-item-image {
+	width: 40upx;
+	height: 40upx;
+	margin-left: 70upx;
+	margin-right: 20upx;
+}
+.login-password {
+	display: flex;
+	flex-direction: row;
+	margin: 40upx 20upx 20upx 20upx;
+}
+.login-item-input {
+	font-size: 16px;
+}
+
+.login-button {
+	margin: 50upx 50upx 20upx 50upx;
+	background-color: coral;
+	
+}

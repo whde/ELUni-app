@@ -1,0 +1,160 @@
+.analyse-view {
+	background: rgba(194, 194, 194, 0.3);
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	height: 1306upx;
+}
+
+.analyse-header {
+	width: 750upx;
+	height: 700upx;
+	background: linear-gradient(180deg, rgba(250, 217, 97, 1) 0%, rgba(254, 87, 33, 1) 100%);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.analyse-header-title {
+	margin-top: 40upx;
+	height: 50px;
+	font-size: 18px;
+	font-family: PingFang-SC-Medium;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	line-height: 50upx;
+}
+
+.analyse-header-canvas {
+	width: 165px;
+	height: 165px;
+	flex-grow: 2;
+}
+
+.analyse-header-canvas-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 165px;
+	height: 165px;
+}
+
+.analyse-header-allow-canvas {
+	width: 9.5px;
+	height: 12.5px;
+	margin-top: 20px;
+}
+
+.analyse-header-canvas-score {
+	font-size: 45px;
+	font-family: PingFang-SC-Regular;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 1);
+}
+
+.analyse-header-canvas-score-line {
+	margin-top: -5px;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FFFFFF;
+	width: 25px;
+	height: 15px;
+}
+
+.analyse-header-canvas-score-analyse {
+	margin-top: 5upx;
+	height: 50px;
+	font-size: 14px;
+	font-family: PingFang-SC-Medium;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+	line-height: 50upx;
+}
+
+.analyse-header-three-score {
+	height: 125upx;
+	width: 750upx;
+	background: rgba(255, 255, 255, 0.15);
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.analyse-header-three-score-practice {
+	display: flex;
+	flex-direction: column;
+	align-content: center;
+	align-items: center;
+	justify-content: center;
+	width: 248upx;
+}
+
+.analyse-header-three-score-title {
+	font-size: 13px;
+	font-family: PingFang-SC-Medium;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.analyse-header-three-score-score {
+	font-size: 15px;
+	font-family: PingFang-SC-Medium;
+	font-weight: 500;
+	color: rgba(255, 255, 255, 1);
+}
+
+.analyse-header-three-score-line {
+	border-radius: 1.5;
+	background: rgba(255, 255, 255, 0.5);
+	width: 3px;
+	height: 40upx;
+}
+
+.analyse-content {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-top: 30upx;
+	padding-left: 30upx;
+	padding-right: 30upx;
+}
+
+.analyse-item {
+	border-radius: 4px;
+	width: 335upx;
+	height: 180upx;
+	background: rgba(255, 255, 255, 1);
+	display: flex;
+	flex-direction: row-reverse;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: flex-end;
+
+}
+
+.analyse-item-title {
+	font-size: 16px;
+	font-family: PingFang-SC-Medium;
+	font-weight: 500;
+	color: rgba(37, 37, 37, 1);
+	flex-grow: 2;
+	margin-left: 30upx;
+	margin-bottom: 20upx;
+	/* margin-top: 30upx; */
+}
+
+.analyse-item-icon {
+	width: 60upx;
+	height: 60upx;
+	margin-right: 30upx;
+	margin-bottom: 20upx;
+	/* margin-top: 30upx; */
+}
+
+.analyse-item-bgicon {
+	width: 212upx;
+	height: 57upx;
+}

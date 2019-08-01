@@ -1,0 +1,98 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/login/login",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		}, {
+			"path": "pages/me/me",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/me/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人资料"
+			}
+		}, {
+			"path": "pages/me/profile/change-name/change-name",
+			"style": {
+				"navigationBarTitleText": "修改名字"
+			}
+		}, {
+			"path": "pages/me/profile/change-account/change-account",
+			"style": {
+				"navigationBarTitleText": "修改账户"
+			}
+		}, {
+			"path": "pages/me/my-class/my-class",
+			"style": {
+				"navigationBarTitleText": "我的班级"
+			}
+		}, {
+			"path": "pages/me/settings/settings",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		}, {
+			"path": "pages/analyse/analyse",
+			"style": {
+				"app-plus": {
+					"titleNView": false
+				},
+				"navigationBarTextStyle": "white"
+			}
+		}, {
+			"path": "pages/analyse/ability/ability",
+			"style": {
+				"navigationBarTitleText": "我的能力"
+			}
+		}, {
+			"path": "pages/analyse/exam_analyse/exam_analyse",
+			"style": {
+				"navigationBarTitleText": "考试成绩统计"
+			}
+		}, {
+			"path": "pages/index/exam_list/exam_list",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh":true
+			}
+		}
+	],
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/index/index",
+			"iconPath": "static/tab_icon_practice_disabled@2x.png",
+			"selectedIconPath": "static/tab_icon_practice@2x.png",
+			"text": "首页"
+		}, {
+			"pagePath": "pages/analyse/analyse",
+			"iconPath": "static/tab_icon_analyse_disabled@2x.png",
+			"selectedIconPath": "static/tab_icon_analyse@2x.png",
+			"text": "学情分析"
+		}, {
+			"pagePath": "pages/me/me",
+			"iconPath": "static/tab_icon_me_disabled@2x.png",
+			"selectedIconPath": "static/tab_icon_me@2x.png",
+			"text": "我的"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "ELLearn",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
